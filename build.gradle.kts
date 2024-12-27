@@ -3,3 +3,5 @@ plugins {
     alias(libs.plugins.android.application) apply false
     alias(libs.plugins.jetbrains.kotlin.android) apply false
 }
+
+apply(from = "build_scripts/test1.kts")
